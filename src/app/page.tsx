@@ -1,3 +1,4 @@
+import { EnergyCalculation } from "@/components/energy-calculation/energy-calculation";
 import { FilamentCalculation } from "@/components/filament-calculation/filament-calculation";
 
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
       </h1>
 
       <FilamentCalculation />
+
+      <EnergyCalculation/>
+
     </div>
   );
 }
